@@ -3,6 +3,7 @@
 
 void menuPrincipal(void);
 void telaInfos(void);
+void telaDev(void);
 
 /// Programa Principal ///
 
@@ -10,6 +11,7 @@ int main(void) {
     setlocale(LC_ALL,"Portuguese_Brazil");
     menuPrincipal();
     telaInfos();
+    telaDev();
 }
 
 /// Funções ///
@@ -60,6 +62,32 @@ void telaInfos(void) {
     printf("///  conceitos repassados e discutidos em sala de aula. O programa também   ///\n");
     printf("///  tem propósito avaliativo, sendo uma ferramenta para avaliar o          ///\n");
     printf("///  desempenho da desenvolvedora e sua compreensão do assunto.             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
+
+void telaDev(void) {
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               Universidade Federal do Rio Grande do Norte               ///\n");
+    printf("///                   Centro de Ensino Superior do Seridó                   ///\n");
+    printf("///                 Departamento de Computação e Tecnologia                 ///\n");
+    printf("///                    Disciplina DCT1106 -- Programação                    ///\n");
+    printf("///            Projeto Sistema de Controle de Despensa Doméstica            ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                  = = = = = My Home Pantry = = = = =                     ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Este projeto exemplo foi desenvolvido por:                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            discente Isa Laura D. Araújo                                 ///\n");
+    printf("///            E-mail: isalaura1304@gmail.com                               ///\n");
+    printf("///            Instagram: @ylsix                                            ///\n");
+    printf("///            Git: https://github.com/ehaisa/cPantry.git                   ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
