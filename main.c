@@ -1,6 +1,8 @@
+// TODAS AS TELAS FORAM FEITAS COM BASE NO EXEMPLO DADO PELO PROFESSOR FLAVIUS GORGONIO
+// fonte: https://github.com/FlaviusGorgonio/LinguaSolta
+
 #include <stdio.h>
-#include <locale.h>
-#include <stdlib.h>
+#include <locale.h> // Biblioteca necessaria para corrigir os acentos
 
 void menuPrincipal(void);
 void telaInfos(void);
@@ -9,7 +11,7 @@ void telaDev(void);
 /// Programa Principal ///
 
 int main(void) {
-    setlocale(LC_ALL,"Portuguese_Brazil");
+    setlocale(LC_ALL,"Portuguese_Brazil"); // Corrige os acentos, fonte: https://youtu.be/hB6KFP6luL4
     menuPrincipal();
     telaInfos();
     telaDev();
