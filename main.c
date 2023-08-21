@@ -10,6 +10,7 @@ void telaInfos(void);
 void telaDev(void);
 void telaItens(void);
 void itensLimpeza(void);
+void itensHigiene(void);
 
 /// Programa Principal ///
 
@@ -18,6 +19,7 @@ int main(void) {
     menuPrincipal();
     telaItens();
     itensLimpeza();
+    itensHigiene();
     telaInfos();
     telaDev();
 }
@@ -108,6 +110,38 @@ void itensLimpeza(void) {
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
     printf("///                 = = = = = Limpeza Doméstica = = = = =                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Pesquisar Item                                            ///\n");
+    printf("///            2. Visualizar Todos                                          ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            Qual opção deseja acessar? (Informe o número) ");
+    scanf("%c", &op);
+    getchar();
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void itensHigiene(void) {
+        char op;
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                  = = = = = Higiene Pessoal = = = = =                    ///\n");
     printf("///                                                                         ///\n");
     printf("///            1. Pesquisar Item                                            ///\n");
     printf("///            2. Visualizar Todos                                          ///\n");
