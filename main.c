@@ -11,6 +11,7 @@ void telaDev(void);
 void telaItens(void);
 void itensLimpeza(void);
 void itensHigiene(void);
+void itensAlimentos(void);
 
 /// Programa Principal ///
 
@@ -20,6 +21,7 @@ int main(void) {
     telaItens();
     itensLimpeza();
     itensHigiene();
+    itensAlimentos();
     telaInfos();
     telaDev();
 }
@@ -189,6 +191,7 @@ void itensAlimentos(void) {
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
+
 void telaInfos(void) {
     system("clear||cls");
     printf("\n");
