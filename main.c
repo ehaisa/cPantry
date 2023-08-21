@@ -127,7 +127,7 @@ void itensLimpeza(void) {
 }
 
 void itensHigiene(void) {
-        char op;
+    char op;
     system("clear||cls");
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
