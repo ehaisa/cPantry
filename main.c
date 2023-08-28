@@ -12,18 +12,86 @@ void telaItens(void);
 void itensLimpeza(void);
 void itensHigiene(void);
 void itensAlimentos(void);
+void criarItens(void);
+void editarItem(void);
 
 /// Programa Principal ///
 
 int main(void) {
     setlocale(LC_ALL,"Portuguese_Brazil"); // Corrige os acentos, fonte: https://youtu.be/hB6KFP6luL4
     menuPrincipal();
+    criarItens();
+    editarItem();
     telaItens();
     itensLimpeza();
     itensHigiene();
     itensAlimentos();
     telaInfos();
     telaDev();
+}
+
+/// CRUDs ///
+
+void criarItens(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                     = = = = = Novo Item = = = = =                       ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Tipo (ex: Arroz):                                            ///\n");
+    printf("///            Categoria (ex: Alimentação):                                 ///\n");
+    printf("///            Quantidade:                                                  ///\n");
+    printf("///            Data de Validade:                                            ///\n");
+    printf("///            Data de Aquisição:                                           ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void editarItem(void) {
+    char op;
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                  = = = = = Editar Despensa = = = = =                    ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Alterar Quantidade                                        ///\n");
+    printf("///            2. Alterar Tipo                                              ///\n");
+    printf("///            2. Alterar Categoria                                         ///\n");
+    printf("///            3. Excluir Item                                              ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            Qual opção deseja modificar? (Informe o número) ");
+    scanf("%c", &op);
+    getchar();
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
 }
 
 /// Telas ///
