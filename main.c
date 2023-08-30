@@ -230,7 +230,7 @@ void itensHigiene(void) {
 }
 
 void itensAlimentos(void) {
-        char op;
+    char op;
     system("clear||cls");
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
