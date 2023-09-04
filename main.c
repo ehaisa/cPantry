@@ -16,6 +16,7 @@ void criarItens(void);
 void editarItem(void);
 void criarCategoria(void);
 void searchCategorias(void);
+void criarSubcategoria(void);
 
 /// Programa Principal ///
 
@@ -25,6 +26,7 @@ int main(void) {
     criarItens();
     editarItem();
     criarCategoria();
+    criarSubcategoria();
     telaItens();
     itensLimpeza();
     itensHigiene();
@@ -118,6 +120,32 @@ void criarCategoria(void) {
     printf("///                                                                         ///\n");
     printf("///            Nome:                                                        ///\n");
     printf("///            Descrição da Categoria:                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar(); 
+}
+
+void criarSubcategoria(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                 = = = = = Nova Subcategoria = = = = =                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Nome:                                                        ///\n");
+    printf("///            Categoria Principal:                                         ///\n");    
+    printf("///            Descrição da Subcategoria:                                   ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
