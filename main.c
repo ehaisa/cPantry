@@ -20,6 +20,7 @@ void criarSubcategoria(void);
 void telaCategorias(void);
 void editarCategoria(void);
 void editarSubcategoria(void);
+void telaEdit_categorias(void);
 
 /// Programa Principal ///
 
@@ -34,6 +35,7 @@ int main(void) {
     criarCategoria();
     criarSubcategoria();
     searchCategorias();
+    telaEdit_categorias();
     editarCategoria();
     editarSubcategoria();
     criarItens();
@@ -437,6 +439,38 @@ void telaCategorias(void) {
     printf("///            2. Criar Subcategoria                                        ///\n");
     printf("///            3. Pesquisar                                                 ///\n");
     printf("///            4. Editar                                                    ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            Qual opção deseja acessar? (Informe o número) ");
+    scanf("%c", &op);
+    getchar();
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void telaEdit_categorias(void) {
+    char op;
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                 = = = = = Editar Categorias = = = = =                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Editar Categoria                                          ///\n");
+    printf("///            2. Editar Subcategoria                                       ///\n");
     printf("///            0. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
