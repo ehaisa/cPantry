@@ -19,6 +19,7 @@ void searchCategorias(void);
 void criarSubcategoria(void);
 void telaCategorias(void);
 void editarCategoria(void);
+void editarSubcategoria(void);
 
 /// Programa Principal ///
 
@@ -34,6 +35,7 @@ int main(void) {
     criarSubcategoria();
     searchCategorias();
     editarCategoria();
+    editarSubcategoria();
     criarItens();
     editarItem();
     telaInfos();
@@ -214,6 +216,39 @@ void editarCategoria(void) {
     getchar();
 }
 
+void editarSubcategoria(void) {
+    char op;
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                = = = = = Editar Subcategoria = = = = =                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Alterar Nome                                              ///\n");
+    printf("///            2. Alterar Categoria Principal                               ///\n");
+    printf("///            3. Alterar Descrição                                         ///\n");
+    printf("///            4. Excluir Subcategoria                                      ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            Qual opção deseja modificar? (Informe o número) ");
+    scanf("%c", &op);
+    getchar();
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
 /// Telas ///
 
 void menuPrincipal(void) {
