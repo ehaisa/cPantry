@@ -49,7 +49,7 @@ void criarItens(void) {
     printf("///                     = = = = = Novo Item = = = = =                       ///\n");
     printf("///                                                                         ///\n");
     printf("///            Tipo (ex: Arroz):                                            ///\n");
-    printf("///            Categoria (ex: Alimentação):                                 ///\n");
+    printf("///            Categoria (ex.: Alimentação):                                 ///\n");
     printf("///            Preço:                                                       ///\n");
     printf("///            Quantidade:                                                  ///\n");
     printf("///            Data de Validade:                                            ///\n");
@@ -152,6 +152,7 @@ void telaItens(void) {
     printf("///            1. Limpeza Doméstica                                         ///\n");
     printf("///            2. Higiene Pessoal                                           ///\n");
     printf("///            3. Alimentação                                               ///\n");
+    printf("///            4. Procurar Categoria                                        ///\n");
     printf("///            0. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
