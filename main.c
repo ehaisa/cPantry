@@ -14,6 +14,7 @@ void itensHigiene(void);
 void itensAlimentos(void);
 void criarItens(void);
 void editarItem(void);
+void searchCategorias(void);
 
 /// Programa Principal ///
 
@@ -26,6 +27,7 @@ int main(void) {
     itensLimpeza();
     itensHigiene();
     itensAlimentos();
+    searchCategorias();
     telaInfos();
     telaDev();
 }
@@ -88,6 +90,30 @@ void editarItem(void) {
     printf("///            Qual opção deseja modificar? (Informe o número) ");
     scanf("%c", &op);
     getchar();
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void searchCategorias(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                = = = = = Procurar Categoria = = = = =                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Qual categoria ou subcategoria gostaria de procurar?         ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
