@@ -17,21 +17,23 @@ void editarItem(void);
 void criarCategoria(void);
 void searchCategorias(void);
 void criarSubcategoria(void);
+void telaCategorias(void);
 
 /// Programa Principal ///
 
 int main(void) {
     setlocale(LC_ALL,"Portuguese_Brazil"); // Corrige os acentos, fonte: https://youtu.be/hB6KFP6luL4
     menuPrincipal();
-    criarItens();
-    editarItem();
-    criarCategoria();
-    criarSubcategoria();
     telaItens();
     itensLimpeza();
     itensHigiene();
     itensAlimentos();
+    telaCategorias();
+    criarCategoria();
+    criarSubcategoria();
     searchCategorias();
+    criarItens();
+    editarItem();
     telaInfos();
     telaDev();
 }
@@ -331,6 +333,40 @@ void itensAlimentos(void) {
     printf("///                                                                         ///\n");
     printf("///            1. Pesquisar Item                                            ///\n");
     printf("///            2. Visualizar Todos                                          ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            Qual opção deseja acessar? (Informe o número) ");
+    scanf("%c", &op);
+    getchar();
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void telaCategorias(void) {
+    char op;
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            = = = = = Categorias e Subcategorias = = = = =               ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Criar Categoria                                           ///\n");
+    printf("///            2. Criar Subcategoria                                        ///\n");
+    printf("///            3. Pesquisar                                                 ///\n");
+    printf("///            4. Editar                                                    ///\n");
     printf("///            0. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
