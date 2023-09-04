@@ -200,7 +200,7 @@ void editarCategoria(void) {
     printf("///                                                                         ///\n");
     printf("///            1. Alterar Nome                                              ///\n");
     printf("///            2. Alterar Descrição                                         ///\n");
-    printf("///            3. Excluir Item                                              ///\n");
+    printf("///            3. Excluir Categoria                                         ///\n");
     printf("///            0. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
