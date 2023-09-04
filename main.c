@@ -18,6 +18,7 @@ void criarCategoria(void);
 void searchCategorias(void);
 void criarSubcategoria(void);
 void telaCategorias(void);
+void editarCategoria(void);
 
 /// Programa Principal ///
 
@@ -32,6 +33,7 @@ int main(void) {
     criarCategoria();
     criarSubcategoria();
     searchCategorias();
+    editarCategoria();
     criarItens();
     editarItem();
     telaInfos();
@@ -172,6 +174,39 @@ void searchCategorias(void) {
     printf("///                = = = = = Procurar Categoria = = = = =                   ///\n");
     printf("///                                                                         ///\n");
     printf("///            Qual categoria ou subcategoria gostaria de procurar?         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+void editarCategoria(void) {
+    char op;
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                 = = = = = Editar Categoria = = = = =                    ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Alterar Nome                                              ///\n");
+    printf("///            2. Alterar Descrição                                         ///\n");
+    printf("///            3. Excluir Item                                              ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            Qual opção deseja modificar? (Informe o número) ");
+    scanf("%c", &op);
+    getchar();
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
