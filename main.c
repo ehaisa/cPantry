@@ -14,6 +14,7 @@ void itensHigiene(void);
 void itensAlimentos(void);
 void criarItens(void);
 void editarItem(void);
+void criarCategoria(void);
 void searchCategorias(void);
 
 /// Programa Principal ///
@@ -23,6 +24,7 @@ int main(void) {
     menuPrincipal();
     criarItens();
     editarItem();
+    criarCategoria();
     telaItens();
     itensLimpeza();
     itensHigiene();
@@ -96,6 +98,31 @@ void editarItem(void) {
     printf("\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
+}
+
+void criarCategoria(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               =              My Home Pantry             =               ///\n");
+    printf("///               =                                         =               ///\n");
+    printf("///               ===========================================               ///\n");
+    printf("///                 Developed by @ehaisa -- since Aug, 2023                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   = = = = = Nova Categoria = = = = =                    ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Nome:                                                        ///\n");
+    printf("///            Descrição da Categoria:                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar(); 
 }
 
 void searchCategorias(void) {
