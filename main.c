@@ -51,7 +51,7 @@ void criarItens(void) {
     printf("///                     = = = = = Novo Item = = = = =                       ///\n");
     printf("///                                                                         ///\n");
     printf("///            Tipo (ex: Arroz):                                            ///\n");
-    printf("///            Categoria (ex.: Alimentação):                                 ///\n");
+    printf("///            Categoria (ex.: Alimentação):                                ///\n");
     printf("///            Preço:                                                       ///\n");
     printf("///            Quantidade:                                                  ///\n");
     printf("///            Data de Validade:                                            ///\n");
