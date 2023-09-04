@@ -91,8 +91,8 @@ void editarItem(void) {
     printf("///                                                                         ///\n");
     printf("///            1. Alterar Quantidade                                        ///\n");
     printf("///            2. Alterar Tipo                                              ///\n");
-    printf("///            2. Alterar Categoria                                         ///\n");
-    printf("///            3. Excluir Item                                              ///\n");
+    printf("///            3. Alterar Categoria                                         ///\n");
+    printf("///            4. Excluir Item                                              ///\n");
     printf("///            0. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
